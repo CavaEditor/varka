@@ -1,0 +1,240 @@
+html{
+    background-color : black;
+}
+header.layout{
+    height : 100px;
+    background-color : black;
+}
+/*-------Navbar------*/
+nav#navbar{
+    background-color : black;
+    position : relative;
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : space-between;
+    padding : 8px;
+    align-elements : center;
+}
+nav#navbar div.container a.inst{
+    font-size : 10px;
+    text-decoration : none;
+    color : white;
+    font-family: 'Dancing Script', cursive;
+}
+nav#navbar div.container{
+    background : black;
+    display:inline-block;
+    padding : 16px;
+}
+nav#navbar div.container a.home{
+    text-decoration : none;
+    color : white;
+    font-family: 'Dancing Script', cursive;
+    font-size : 64px;
+}
+nav#navbar div.container ul.navbar-nav{
+    display : flex;
+    flex-direction : inherit !important;
+    flex-wrap : wrap;
+    justify-content : space-between;
+    padding : 3px;
+}
+nav#navbar div.container ul.navbar-nav li{
+    padding : 25px;
+}
+
+nav#navbar div.container ul li a{
+    color : white;
+}
+nav#navbar div.container ul li div.dropdown-menu{
+    background-color : black;
+}
+nav#navbar div.container ul li div.dropdown-menu a.dropdown-item:hover{
+    color : black;
+}
+/*-----------Section Welcome Home Part ------*/
+section#welcome-home-part{
+    height : 600px;
+    background-image:url("photos/home.png");
+}
+section#welcome-home-part div.container{
+    padding-left : 20%;
+    filter : opacity(100%);
+    position:relative;
+    top : -600px;
+}
+section#welcome-home-part div.overlay{
+    height:600px;
+    filter:opacity(40%);
+    background-color:black;
+    z-index:5;
+}
+
+section#welcome-home-part div.container div.js-fullheight{
+    height : 600px;
+    display:flex;
+    flex-wrap : wrap;
+    justify-content : center;
+    align-items : center;
+}
+section#welcome-home-part div.container div.js-fullheight div.d-flex{
+    align-items: center;
+    color : white;
+}
+section#welcome-home-part div.container div.js-fullheight div.d-flex h1{
+   font-family: 'Dancing Script', cursive;
+   font-size : 62px;
+   background-color : white;
+   color : black;
+}
+section#welcome-home-part div.container div.js-fullheight div.d-flex span.subheading{
+    background-color:white;
+    color : black;
+}
+/*---------About----------*/
+section#about{
+    background-color : black;
+}
+section#about div.row{
+    width:100%;
+}
+section#about header h1{
+    font-family: 'Source Serif Pro', serif;
+    font-size:60px;
+    text-align : center;
+    color:white;
+}
+section#about header p{
+    font-family: 'Source Serif Pro', serif;
+    font-size:30px;
+    text-align : center;
+    color : white;
+    padding-top : 30px;
+}
+section#about div.row {
+    padding-top : 40px;
+}
+section#about div.row h2{
+    text-align : center;
+    color : white;
+    font-family: 'Source Serif Pro', serif;
+}
+section#about div.row p{
+    color : white;
+    font-family: 'Source Serif Pro', serif;
+    padding-left : 40px;
+    padding-right : 40px;
+    padding-top : 40px;
+}
+/*----------------Menu-------------*/
+section#menu{
+    background-color : black;
+}
+section#menu header h1{
+    font-family: 'Source Serif Pro', serif;
+    font-size:60px;
+    text-align : center;
+    color : white;
+}
+section#menu div.row div.col-sm-4{
+    background-color : black;
+}
+section#menu h2{
+    padding-left : 40px;
+    color : white;
+    font-family: 'Source Serif Pro', serif;
+}
+section#menu p.p{
+    padding-left : 40px;
+    color : white;
+    font-family: 'Source Serif Pro', serif;
+}
+section#menu div.row div.col-sm-3 h4{
+    color : white;
+    font-family: 'Source Serif Pro', serif;
+    text-align : center;
+}
+section#menu div.row div.col-sm-3 p{
+    text-align : center;
+    color : white;
+}
+section#menu div.row div.col-sm-3 img{
+    height : 25px;
+    width : 100px;
+    border-radius : 10px;
+}
+section#menu div.row div.col-sm-3 button{
+    height : 30px;
+    width : 80px;
+    background-color : white;
+    border-radius : 5px;
+}
+section#menu div.row{
+    width : 100%;
+}
+section#menu header.aLittleBit{
+    height : 100px;
+}
+section#menu hr{
+    background-color : white;
+    height : 2px;
+    width : 300px;
+    margin-left : 40px;
+}
+/*-------Contact us ------*/
+section#contact{
+    background-image:url("photos/home.png");
+    height : 600px;
+}
+section#contact div.container{
+    margin-left : 350px;
+    margin-right : 350px;
+    width : auto;
+    height : 550px;
+    background-color : white;
+    border-radius : 100px;
+}
+section#contact div.container h2{
+    text-align : center;
+    font-family: 'Source Serif Pro', serif;
+    font-size : 35px;
+    padding-top : 25px;
+}
+section#contact div.container p{
+    font-family: 'Source Serif Pro', serif;
+    text-align : center;
+}
+section#contact div.container label{
+    font-family: 'Source Serif Pro', serif;
+}
+section#contact div.container input[type=text]{
+    border-radius : 20px;
+}
+section#contact div.container input[type=email]{
+    border-radius : 20px;
+}
+section#contact div.container input.feedback[type=text]{
+    height : 200px;
+    width : 400px;
+}
+section#contact div.container button{
+    width : 100px;
+    height : 40px;
+    border-radius : 5px;
+    background-color : white;
+    margin-top : 10px;
+}
+section#contact div.container form{
+    padding-left : 30px;
+}
+/*----------------Footer-----------*/
+footer{
+    background-color : black;
+    text-align: center;
+    color : white;
+    padding-top : 30px;
+}
+/*---*/
+.navbar-collapse.collapse {
+        display: inline-block!important;
+}
